@@ -1,5 +1,5 @@
-YaleOrderOfDataAnalysts.github.io
+yaleorderofDataanalysts.github.io
 =================================
 
-This is the Github web page repository for the organization
-___YaleOrderOfDataAnalysts (YODA)___.
+This repository supports the web page for the Github organization
+YaleOrderOfDataAnalysts.
