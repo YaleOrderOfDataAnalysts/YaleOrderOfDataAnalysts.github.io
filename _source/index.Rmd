@@ -5,6 +5,7 @@ The Yale Order of Data Analysts was founded on Tuesday, September 3, 2013, by (l
 ### A basic code chunk example
 
 ```{r}
+set.seed(1)
 x <- rnorm(10)
 summary(x)
 ```
