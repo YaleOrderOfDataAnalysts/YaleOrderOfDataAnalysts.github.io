@@ -4,8 +4,9 @@
 After a range of opening conversations, Jay went to work trying
 to get an image of a Google Map, while the others took on the
 [http://whatwouldhartigando.com](WhatWouldHartiganDo April 6, 2013)
-image processing challenge.
-```{r}
+image processing challenge.  The following worked at the meeting
+but won't work now (probably a stale cookie):
+```{r eval=FALSE}
 x <- scan("https://maps.google.com/?ll=41.306956,-72.926044&spn=0.035977,0.076389&t=m&z=14&layer=t", what="", sep="\n")
 ```
 We thought it would be really cool if we could do some image
