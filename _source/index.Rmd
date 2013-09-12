@@ -1,0 +1,20 @@
+### YODA our name is!
+
+The Yale Order of Data Analysts was founded on Tuesday, September 3, 2013, by (listed alphabetically) Stephanie Adcock, Jessica Allen, Rosie Buchanan, Henry Davidge, Sarah Ditchek, Jay Emerson, Gaby Garbasz, Jessica Landau-Taylor, Pranav Maddi, Dan Noble, John Park, Kishen Patel,  Tammy Pham, Sharon Qian, and Jacob Rosenberg-Wohl.
+
+### A basic code chunk example
+
+```{r}
+x <- rnorm(10)
+summary(x)
+```
+
+### I can even get plots to work!
+
+```{r}
+hist(x)
+```
+
+### Minutes of past meetings
+
+We archive basic minutes from [past meetings](minutes.html).
