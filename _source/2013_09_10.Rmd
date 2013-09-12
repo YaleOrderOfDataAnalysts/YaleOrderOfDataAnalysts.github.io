@@ -1,0 +1,28 @@
+"Data Club" Meeting 9/10/2013
+========================================================
+
+After a range of opening conversations, Jay went to work trying
+to get an image of a Google Map, while the others took on the
+[http://whatwouldhartigando.com](WhatWouldHartiganDo April 6, 2013)
+image processing challenge.
+```{r}
+x <- scan("https://maps.google.com/?ll=41.306956,-72.926044&spn=0.035977,0.076389&t=m&z=14&layer=t", what="", sep="\n")
+```
+We thought it would be really cool if we could do some image
+processing to get traffic congestion for New Haven -- if we
+could get the Google Traffic Map as an image.
+
+Jay's part of this didn't work out.  There are various tools on the
+web for converting web pages to images, but these weren't terribly
+well-supported or well-documented.  The official Google API doesn't
+support static maps with traffic congestion overlay, unfortunately.
+
+We concluded with plans to survey folks for the "final" group name
+and meeting time.
+
+### Addendum from Jay
+
+The result of this survey lead to the Yale Order of Data Analysis
+(YODA) and this Github organization and web pages.  As of this note,
+the official meeting time will be Tuesday, 8 PM, in the TEAL classroom
+of 24 Hillhouse Avenue.
