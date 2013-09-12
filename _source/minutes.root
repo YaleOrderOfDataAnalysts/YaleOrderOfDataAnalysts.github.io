@@ -1,4 +1,4 @@
 page: page.html
 title: Minutes of the Yale Order of Data Analysts
 content: minutes.Rmd
-destination: minutes.html
+destination: ../minutes.html

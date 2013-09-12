@@ -1,4 +1,4 @@
 page: page.html
 title: Yale Order of Data Analysts
 content: index.Rmd
-destination: index.html
+destination: ../index.html

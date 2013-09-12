@@ -49,6 +49,6 @@ for (root in roots) {
             content,
             page[(grep("CONTENT", page)+1):length(page)])
   
-  write(page, file.path("../", dest))
+  write(page, dest)
 }
 
