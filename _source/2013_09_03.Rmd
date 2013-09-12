@@ -1,0 +1,110 @@
+"Data Club"
+===============================================================================
+
+This document serves as the minutes from the first meeting of
+the first chapter of "Data Club" -- name still to be determined --
+which took place on September 3, 2013 in the Department of Statistics
+at Yale University.
+The following individuals were present, in no particular order:
+
+    Jay Emerson, Jessica Landau-Taylor, Jacob Rosenberg-Wohl,
+    Tammy Pham, John Park, Sarah Ditchek, Rosie Buchanan,
+    Gaby Garbasz, Sharon Qian, Jessica Allen, Geoffrey Litt,
+    Stephanie Adcock, Daniel Noble, Kishen Patel, Henry Davidge
+
+Our motivation?  Mathematics + Statistics + Computer Science + Engineering =
+Data Science (more or less, using terms loosely)?
+
+- For fun: [Fight Club](http://www.youtube.com/watch?v=vJMC_S-DB2I)
+
+- [Where Do Data Scientists Come From?](http://www.informationweek.com/big-data/news/big-data-analytics/where-do-data-scientists-come-from/240160511)
+
+- [For Data Scientists, Math Skills Are Not Enough](http://www.forbes.com/sites/tomgroenfeldt/2013/08/23/for-data-scientists-math-skills-are-not-enough/)
+
+- [6 tips for turning that data science education into startup riches](http://gigaom.com/2013/08/14/6-tips-for-turning-that-data-science-education-into-startup-riches/)
+
+- [Data Science: What's The Half-Life Of A Buzzword?](http://www.forbes.com/sites/gilpress/2013/08/19/data-science-whats-the-half-life-of-a-buzzword/)
+
+### Possible agenda items
+
+We touched upon most of the following items, but the meeting was informal.
+
+1. Agree upon an agenda.  __We never managed this.__
+
+2. What are people interested in?  __We made some headway, summarized below.__
+
+3. My involvement can range from minimal to substantial.  I doubt anybody
+wants "yet-another-lecture" and I don't really want to prepare them.  But
+there certainly are things that I can present with minimal preparation as
+needed.  There are certainly things I'd like to know more about.  For example,
+I bet someone here could offer a crash mini-course on Python.
+__We discussed this.__
+
+4. Do we need rules?  "Don't talk about Data Club" might not make any sense.
+__We didn't discuss this and I didn't get the sense that there was any reason
+to do so.__
+
+5. Should there be weekly meetings?  Bi-weekly?  Monthly? At regular
+times, or scheduled one-by-one?  __Weekly meetings will be planned.__
+
+6. The Department of Statistics has a course web page at 
+http://statistics.yale.edu/courses.  You can't see it by default,
+but the page source contains days and meeting times.  We'd like
+to automatically produce a graphical display of the course meeting
+times. __We tried a scrape (limited progress shown below).__
+
+7. Google Code Jam.  Here's a simple example.  We could budget 30 minutes
+and try working (individually or in pairs):
+http://code.google.com/codejam/contest/2270488/dashboard#s=p1
+__We glanced at two of them but didn't work on anything.__
+
+8. [Kaggle](http://www.kaggle.com).  Yes, they have competitions we could
+look at.  But I'd
+like to have my own "poor man's Kaggle" platform for use in my own courses.
+My instinct is to build this as a Shiny application in R.  You may have never
+heard of Shiny, so trust me: it's pretty damn cool.  I'm also
+interested in data analysis problems that would be well-suited for in-class
+competitions or homework using this platform.
+__I talked a little about this but we didn't look at anything on Kaggle.__
+
+9. Location?  I'm thinking the TEAL classroom would be cool.  Though 24 HH has some nice advantages (if we fit and if it is available).
+__People agreed that TEAL was a good location.__
+
+
+### Yale Stats Course Scrape
+
+```{r}
+thisurl <- 'http://statistics.yale.edu/courses'
+x <- scan(thisurl, what="", sep="\n")
+tlines <- grep("views-accordion-courses-page_2-header", x)[-1]
+dtlines <- grep("Day/Time", x)
+titles <- substring(x[tlines+1], 5, 12)
+tlines <- tlines[ substring(titles, 6, 6) != 1 ]
+titles <- substring(x[tlines+1], 5, 12)
+tlines <- tlines[ !duplicated(titles) ]
+titles <- substring(x[tlines+1], 5, 12)
+dt <- x[tlines+9]
+```
+At this point we realized that gathering the day/time information was going to be
+a problem given our initial approach.  Jay commented that he would at this point
+start over rather than try to modify this scrape further.
+
+### Planning
+
+1. Jay will explore TEAL availability and will organize a Doodle poll to determine
+a regular meeting time.
+
+2. Jessica is very interested in a "Yale Blue Line" data scrape.  Jay pointed out that
+some latitude/longitude information is imbedded in the web pages.
+
+3. We agreed that there seemed to be a general divide of activities into "crash courses"
+(such as a crash course in Python) and "fun stuff" (like Jessica's proposed scrape, above).
+This seems like a reasonable way to proceed with the planning.
+
+4. A list of possible topics for "crash courses" included: Python, C (including
+authoring R packages and the C interface), Linux, shell scripting, and web technologies
+(FastRWeb, Shiny, classic CGI scripting, etc...).
+
+5. We need a name!  Once we have a name I'd put up a Github repository.
+
+
