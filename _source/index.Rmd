@@ -16,6 +16,6 @@ summary(x)
 hist(x)
 ```
 
-### Minutes of past meetings
+### Minutes of past meetings of YODA
 
 We archive basic minutes from [past meetings](minutes.html).
