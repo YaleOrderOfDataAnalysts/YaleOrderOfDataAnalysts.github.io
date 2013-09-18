@@ -1,13 +1,5 @@
----
-TEMPLATE: template.html
-DESTINATION: ../minutes/2013_09_03.html
-BROWSERTITLE: YODA
-SITETITLE: Yale Order of Data Analysts
-SITESUBTITLE: YODA
-MENU: About Us;index.html,Minutes;minutes.html
-PAGETITLE: Minutes of 2013-09-03
-DATE: none
----
+"Data Club"
+===============================================================================
 
 This document serves as the minutes from the first meeting of
 the first chapter of "Data Club" -- name still to be determined --

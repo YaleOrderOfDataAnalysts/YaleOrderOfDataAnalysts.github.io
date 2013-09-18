@@ -1,13 +1,5 @@
----
-TEMPLATE: template.html
-DESTINATION: ../minutes/2013_09_10.html
-BROWSERTITLE: YODA
-SITETITLE: Yale Order of Data Analysts
-SITESUBTITLE: YODA
-MENU: About Us;index.html,Minutes;minutes.html
-PAGETITLE: Minutes of 2013-09-10
-DATE: none
----
+"Data Club" Meeting 9/10/2013
+========================================================
 
 After a range of opening conversations, Jay went to work trying
 to get an image of a Google Map, while the others took on the

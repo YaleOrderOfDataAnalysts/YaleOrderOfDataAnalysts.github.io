@@ -1,23 +1,6 @@
----
-TEMPLATE: template.html
-DESTINATION: ../index.html
-BROWSERTITLE: YODA
-SITETITLE: Yale Order of Data Analysts
-SITESUBTITLE: YODA
-MENU: About Us;.,Minutes;minutes.html
-PAGETITLE: About Us
-DATE: Updated 2013-09-17
----
-
 ### YODA our name is!
 
 The Yale Order of Data Analysts was founded on Tuesday, September 3, 2013, by (listed alphabetically) Stephanie Adcock, Jessica Allen, Rosie Buchanan, Henry Davidge, Sarah Ditchek, Jay Emerson, Gaby Garbasz, Jessica Landau-Taylor, Pranav Maddi, Dan Noble, John Park, Kishen Patel,  Tammy Pham, Sharon Qian, and Jacob Rosenberg-Wohl.
-
-### YODA meetings
-
-YODA meets on Tuesday evenings at 8 PM in the TEAL classroom of 27 Hillhouse Avenue.
-[Obi wan](http://www.stat.yale.edu/~jay/)
-will often bring food and drink.  Come and go as you please and as time permits!
 
 ### A basic code chunk example
 

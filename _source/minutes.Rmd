@@ -1,6 +1,19 @@
-### Minutes of past meetings
+---
+TEMPLATE: template.html
+DESTINATION: ../minutes.html
+BROWSERTITLE: YODA
+SITETITLE: Yale Order of Data Analysts
+SITESUBTITLE: YODA
+MENU: About Us;index.html,Minutes;.
+PAGETITLE: Minutes of past meetings
+DATE: Updated 2013-09-17
+---
+
+[September 17, 2013](minutes/2013_09_17.html)
+
+[September 10, 2013](minutes/2013_09_10.html)
 
 [First meeting -- September 3, 2013](minutes/2013_09_03.html)
 
-[September 10, 2013](minutes/2013_09_10.html)
+
 
