@@ -30,3 +30,51 @@ nice is something like [this page](http://www.stat.yale.edu/Courses/2013-14/FALL
 
 We'll spend a little time on this soon.
 
+### Graphics
+
+```{r}
+x <- read.csv("samplecourses.csv", as.is=TRUE)
+
+library(grid)
+
+grid.newpage()
+pushViewport(viewport(x=0.1, y=0.1, w=0.8, h=0.8,
+                      just=c("left","bottom"),
+                      xscale=c(0.5, 5.5),
+                      yscale=c(18, 9)))
+grid.xaxis(at=1:5, main=FALSE,
+           label=c("Monday","Tuesday","Wednesday","Thursday","Friday"))
+grid.xaxis(at=1:5, main=TRUE,
+           label=c("Monday","Tuesday","Wednesday","Thursday","Friday"))
+grid.yaxis(at=9:18, main=TRUE,
+           label=paste(9:18, ":00", sep=""))
+grid.yaxis(at=9:18, main=FALSE,
+           label=paste(9:18, ":00", sep=""))
+grid.rect()
+grid.segments(x0=unit(seq(1.5,4.5,1), "native"),
+              y0=unit(rep(0,4), "npc"),
+              x1=unit(seq(1.5,4.5,1), "native"),
+              y1=unit(rep(1,4), "npc"), 
+              gp=gpar(col="green"))
+
+for (i in 1:nrow(x)) {
+  for (d in 1:5) {
+    if (x[i,d+2]==1) {
+      xloc <- x[i,d+2] * d
+      yloc <- (x$end[i] + x$start[i]) / 2
+      h <- x$end[i] - x$start[i]
+      grid.rect(unit(xloc, "native"), unit(yloc, "native"), 
+                width=unit(0.9, "native"),
+                height=unit(h, "native"))
+      grid.text(x$course[i], unit(xloc, "native"),
+                unit(yloc - 0.1, "native"), gp=gpar(cex=0.7))
+      grid.text(x$room[i], unit(xloc, "native"),
+                unit(yloc + 0.1, "native"), gp=gpar(cex=0.7))
+    }
+  }
+}
+
+popViewport(1)
+
+```
+
