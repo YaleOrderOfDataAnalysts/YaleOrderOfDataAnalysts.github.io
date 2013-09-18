@@ -4,7 +4,7 @@ DESTINATION: ../minutes/2013_09_17.html
 BROWSERTITLE: YODA
 SITETITLE: Yale Order of Data Analysts
 SITESUBTITLE: YODA
-MENU: About Us;index.html,Minutes;minutes.html
+MENU: none
 PAGETITLE: Minutes of 2013-09-17
 DATE: none
 ---
