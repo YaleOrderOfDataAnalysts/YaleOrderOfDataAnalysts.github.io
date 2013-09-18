@@ -29,6 +29,9 @@ on a Mac, I love the [Github Mac GUI](http://mac.github.com).
 I assume there is something similar
 for a PC.  However, this isn't necessary for the basic web technology.
 
+### Jay's visit to Amherst
+
+See [a web page](http://www.stat.yale.edu/~jay/Amherst).
 
 ### A basic code chunk example
 
