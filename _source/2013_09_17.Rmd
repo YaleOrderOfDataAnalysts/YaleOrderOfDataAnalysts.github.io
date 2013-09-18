@@ -33,6 +33,8 @@ the purpose of playing with the graphics:
 
 ### Graphics
 
+Jay produced this using the `grid` graphics package.  It's built into
+R, and is under the hood of `ggplot2` and `lattice`.
 ```{r}
 x <- read.csv("samplecourses.csv", as.is=TRUE)
 

@@ -19,6 +19,17 @@ YODA meets on Tuesday evenings at 8 PM in the TEAL classroom of 27 Hillhouse Ave
 [Obi wan](http://www.stat.yale.edu/~jay/)
 will often bring food and drink.  Come and go as you please and as time permits!
 
+### Planning for YODA 9/24
+
+We have a request for a step-by-step introduction to building a web
+page or small site.  I propose using [Github](http://github.com).
+If you're interested in
+this, please sign up for a Github account before the meeting.  If you're
+on a Mac, I love the [Github Mac GUI](http://mac.github.com).
+I assume there is something similar
+for a PC.  However, this isn't necessary for the basic web technology.
+
+
 ### A basic code chunk example
 
 ```{r}
