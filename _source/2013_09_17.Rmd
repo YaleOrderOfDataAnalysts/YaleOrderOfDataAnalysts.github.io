@@ -26,7 +26,10 @@ an evening?
 ### Sarah Ditchek's improve course scrape
 
 We could go through this and then have a graphics challenge.  What would be
-nice is something like [this page](http://www.stat.yale.edu/Courses/2013-14/FALL2013-14.png).
+nice is something like [this page](http://www.stat.yale.edu/Courses/2013-14/FALL2013-14.png).  We played with a
+[toy version](http://www.stat.yale.edu/~jay/dataclub/samplecourses.csv)
+of a course database for
+the purpose of playing with the graphics:
 
 ### Graphics
 
