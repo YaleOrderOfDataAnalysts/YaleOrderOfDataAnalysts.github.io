@@ -1,0 +1,18 @@
+---
+TEMPLATE: template.html
+DESTINATION: ../minutes/2013_09_24.html
+BROWSERTITLE: YODA
+SITETITLE: Yale Order of Data Analysts
+SITESUBTITLE: YODA
+MENU: none
+PAGETITLE: Minutes of 2013-09-24
+DATE: none
+---
+
+### Github and web page basics
+
+Minutes are limited.  Everyone created a Github account and
+authored basic HTML pages.  Then Jay demonstrated the integration
+of HTML produced from R Markdown (Rmd) with a template having nice
+CSS.  A basic folder of this example is available
+[here](http://www.stat.yale.edu/~jay/dataclub/).

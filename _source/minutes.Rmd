@@ -9,6 +9,8 @@ PAGETITLE: Minutes of past meetings
 DATE: Updated 2013-09-17
 ---
 
+[September 24, 2013](minutes/2013_09_24.html)
+
 [September 17, 2013](minutes/2013_09_17.html)
 
 [September 10, 2013](minutes/2013_09_10.html)
