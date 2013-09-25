@@ -6,7 +6,7 @@ SITETITLE: Yale Order of Data Analysts
 SITESUBTITLE: YODA
 MENU: About Us;index.html,Minutes;.
 PAGETITLE: Minutes of past meetings
-DATE: Updated 2013-09-17
+DATE: Updated 2013-09-24
 ---
 
 [September 24, 2013](minutes/2013_09_24.html)
