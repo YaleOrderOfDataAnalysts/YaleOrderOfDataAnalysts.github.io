@@ -6,7 +6,7 @@ SITETITLE: Yale Order of Data Analysts
 SITESUBTITLE: YODA
 MENU: About Us;.,Minutes;minutes.html
 PAGETITLE: About Us
-DATE: Updated 2013-09-24
+DATE: Updated 2013-10-08
 ---
 
 ### YODA our name is!
